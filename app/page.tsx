@@ -14,6 +14,8 @@ export default function Home() {
         <p className="mt-1 text-lg">I`m currently building something amazing!</p>
         <p className="mt-1 text-lg">Stay tuned. 🚀</p>
       </div>
+
+      <SpeedInsights />
     </main>
   );
 }
