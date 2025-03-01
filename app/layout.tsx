@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ExplainAI.dev",
-  description: "Keep track of all AI tools and resources.",
+  title: {
+    template: '%s | ExplainAI.dev',
+    default: 'ExplainAI.dev',
+  },
+  description: "A website to keep track of all those AI tools you use.",
 };
 
 export default function RootLayout({

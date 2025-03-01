@@ -1,5 +1,10 @@
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
+export const metadata = {
+  title: 'Home | ExplainAI.dev',
+  description: "A website to keep track of all those AI tools you use.",
+}
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white text-center p-8">
