@@ -3,6 +3,15 @@ import Link from 'next/link'
 export const metadata = {
     title: '404',
     description: 'Sorry, we could not find the page you are looking for.',
+    keywords: '404, page not found',
+    openGraph: {
+      title: '404',
+      description: 'Sorry, we could not find the page you are looking for.',
+      url: 'https://explainai.dev/404',
+      siteName: 'ExplainAI.dev',
+      locale: 'en-US',
+      type: 'website',
+    },
 };
 
 export default function NotFound() {

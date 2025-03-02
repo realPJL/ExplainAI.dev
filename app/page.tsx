@@ -3,6 +3,15 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 export const metadata = {
   title: 'Home | ExplainAI.dev',
   description: "A website to keep track of all those AI tools you use.",
+  keywords: "AI, Tools, Machine Learning, Deep Learning, LLMs, AI Tracker, ExplainAI.dev",
+  openGraph: {
+    title: 'ExplainAI.dev',
+    description: "A website to keep track of all those AI tools you use.",
+    url: 'https://explainai.dev',
+    siteName: 'ExplainAI.dev',
+    locale: 'en-US',
+    type: 'website',
+  },
 }
 
 export default function Home() {
